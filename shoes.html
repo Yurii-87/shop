@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Safary</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="clothes.html" class="menu__link">Clothes</a></li>
+							<li class="menu__item"><a href="shoes.html" class="menu__link selected">Shoes</a></li>
+							<li class="menu__item"><a href="accessories.html" class="menu__link">Accessories</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="header__logo logo">
+					<a href="index.html"><img src="img/header/logo.svg" alt=""></a>
+				</div>
+
+				<div class="header__panel">
+					<form class="header__form" method="get">
+						<input class="header__search" placeholder="Search..." type="search">
+						<button type="submit">
+							<img class="header__btn" src="img/header/icons/seach.svg" alt="">
+						</button>
+					</form>
+					<div class="header__mob-search-wrap"></div>
+					<img class="header__mob-search" src="img/header/icons/seach.svg" alt="">
+					<div class="header__user-panel">
+						<a class="_icon-user" href="user.html"></a>
+						<a class="_icon-basket" href="cart.html"></a>
+						<a class="_icon-favorits" href="favorites.html"></a>
+					</div>
+				</div>
+
+
+			</div>
+		</header>
+		<main class="page page_next">
+			<div class="page__container">
+				<div class="page-name">
+					CHOES
+				</div>
+
+				<div data-tabs class="tabs tabs_slothes">
+					<aside class="aside">
+						<div data-spollers class="spollers">
+							<div class="spollers__item">
+								<button type="button" data-spoller class="category__name spollers__title">CATEGORY</button>
+								<div class="spollers__body">
+									<div class="spollers__wrap">
+										<a class="spollers__link" href="#">Sort by: Most popular</a>
+										<a class="spollers__link" href="#">Most popular</a>
+										<a class="spollers__link" href="#">Best Selling</a>
+										<a class="spollers__link" href="#">Price: High to Low</a>
+										<a class="spollers__link" href="#">Price: Low to High</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<form class="form" method="get">
+							<div class="form__hed">
+								<div class="form__label">size <span class="form__eu"> - EU/US</span></div>
+								<button class="form__reset" type="reset">Clear </button>
+							</div>
+							<div class="form__body form__body_eu">
+								<div class="form__input-wrap">
+									<input class="form__input" type="checkbox" id="ch1">
+									<label class="form__input-label" for="ch1">35.5/5</label>
+								</div>
+
+								<div class="form__input-wrap">
+									<input class="form__input" type="checkbox" id="ch2">
+									<label class="form__input-label" for="ch2">36/5.5</label>
+								</div>
+
+								<div class="form__input-wrap">
+									<input class="form__input" type="checkbox" id="ch3">
+									<label class="form__input-label" for="ch3">37.5/6.5</label>
+								</div>
+
+								<div class="form__input-wrap">
+									<input class="form__input" type="checkbox" id="ch4">
+									<label class="form__input-label" for="ch4">38/7</label>
+								</div>
+
+								<div class="form__input-wrap">
+									<input class="form__input" type="checkbox" id="ch5">
+									<label class="form__input-label" for="ch5">39/7.5</label>
+								</div>
+
+								<div class="form__input-wrap">
+									<input class="form__input" type="checkbox" id="ch6">
+									<label class="form__input-label" for="ch6">39.5/8</label>
+								</div>
+
+								<div class="form__input-wrap">
+									<input class="form__input" type="checkbox" id="ch7">
+									<label class="form__input-label" for="ch7">40/7.5</label>
+								</div>
+
+								<div class="form__input-wrap">
+									<input class="form__input" type="checkbox" id="ch8">
+									<label class="form__input-label" for="ch8">41/9.5</label>
+								</div>
+
+								<div class="form__input-wrap">
+									<input class="form__input" type="checkbox" id="ch9">
+									<label class="form__input-label" for="ch9">41.5/10</label>
+								</div>
+
+								<div class="form__input-wrap">
+									<input class="form__input" type="checkbox" id="ch10">
+									<label class="form__input-label" for="ch10">42/10.5</label>
+								</div>
+
+								<div class="form__input-wrap">
+									<input class="form__input" type="checkbox" id="ch11">
+									<label class="form__input-label" for="ch11">42/11</label>
+								</div>
+
+								<div class="form__input-wrap">
+									<input class="form__input" type="checkbox" id="ch12">
+									<label class="form__input-label" for="ch12">43/12</label>
+								</div>
+							</div>
+						</form>
+
+						<form class="form" method="get">
+							<div class="form__hed">
+								<div class="form__label">COLOR</div>
+								<button class="form__reset" type="reset">Clear </button>
+							</div>
+
+							<div class="form__body-color">
+								<div class="form__wrap-color">
+									<input class="form__color" type="checkbox" id="col1">
+									<label class="form__color-label form__color-label_beige" for="col1">Beige</label>
+								</div>
+
+								<div class="form__wrap-color">
+									<input class="form__color" type="checkbox" id="col2">
+									<label class="form__color-label form__color-label_blue" for="col2">Blue</label>
+								</div>
+
+								<div class="form__wrap-color">
+									<input class="form__color" type="checkbox" id="col3">
+									<label class="form__color-label form__color-label_black" for="col3">Black</label>
+								</div>
+
+								<div class="form__wrap-color">
+									<input class="form__color" type="checkbox" id="col4">
+									<label class="form__color-label form__color-label_orange" for="col4">Orange</label>
+								</div>
+
+								<div class="form__wrap-color">
+									<input class="form__color" type="checkbox" id="col5">
+									<label class="form__color-label form__color-label_green" for="col5">Green</label>
+								</div>
+
+								<div class="form__wrap-color">
+									<input class="form__color" type="checkbox" id="col6">
+									<label class="form__color-label form__color-label_brown" for="col6">Brown</label>
+								</div>
+
+								<div class="form__wrap-color">
+									<input class="form__color" type="checkbox" id="col7">
+									<label class="form__color-label form__color-label_purple" for="col7">Purple</label>
+								</div>
+
+								<div class="form__wrap-color">
+									<input class="form__color" type="checkbox" id="col8">
+									<label class="form__color-label form__color-label_gold" for="col8">Gold</label>
+								</div>
+
+								<div class="form__wrap-color">
+									<input class="form__color" type="checkbox" id="col9">
+									<label class="form__color-label form__color-label_taupe" for="col9">Taupe</label>
+								</div>
+
+								<div class="form__wrap-color">
+									<input class="form__color" type="checkbox" id="col10">
+									<label class="form__color-label form__color-label_white" for="col10">White</label>
+								</div>
+
+								<div class="form__wrap-color">
+									<input class="form__color" type="checkbox" id="col11">
+									<label class="form__color-label form__color-label_pink" for="col11">Pink</label>
+								</div>
+								<div class="form__wrap-color">
+									<input class="form__color" type="checkbox" id="col12">
+									<label class="form__color-label form__color-label_red" for="col12">Red</label>
+								</div>
+							</div>
+						</form>
+
+						<form class="form" method="get">
+							<div class="form__hed">
+								<div class="form__label">PRICE</div>
+								<button class="form__reset" type="reset">Clear </button>
+							</div>
+
+							<div class="form__body-price">
+								<div class="form__price-wrap">
+									<input type="checkbox" class="form__price-chek" id="pr1">
+									<label class="form__price-label" for="pr1">₦ 0 - ₦ 10,000</label>
+								</div>
+
+								<div class="form__price-wrap">
+									<input type="checkbox" class="form__price-chek" id="pr2">
+									<label class="form__price-label" for="pr2">₦ 10,000 - ₦ 20,000</label>
+								</div>
+
+								<div class="form__price-wrap">
+									<input type="checkbox" class="form__price-chek" id="pr3">
+									<label class="form__price-label" for="pr3">₦ 20,000 - ₦ 50,000</label>
+								</div>
+
+								<div class="form__price-wrap">
+									<input type="checkbox" class="form__price-chek" id="pr4">
+									<label class="form__price-label" for="pr4">₦ 50,000 - ₦ 100,000</label>
+								</div>
+
+								<div class="form__price-wrap">
+									<input type="checkbox" class="form__price-chek" id="pr5">
+									<label class="form__price-label" for="pr5">₦ 100,000 - ₦ 200,000</label>
+								</div>
+							</div>
+
+							<div class="form__line-inputs">
+								<input class="form__number" placeholder="₦" type="number">
+								<span>to</span>
+								<input class="form__number" placeholder="₦" type="number">
+								<button class="form__total" type="submit">Apply</button>
+							</div>
+
+						</form>
+					</aside>
+
+					<div data-tabs-body class="tabs__content">
+						<div class="tabs__body">
+							<div id="tab1" class="block-content">
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a01.webp" type="image/webp"><img
+														src="img/hom_items/a01.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description">
+												<a href="#">Multicolored armless
+													topMulticolored armless
+													topMulticolored armless top
+												</a>
+											</div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a02.webp" type="image/webp"><img
+														src="img/hom_items/a02.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Grey bee wrist-watch</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a03.webp" type="image/webp"><img
+														src="img/hom_items/a03.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Mini skirt</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a04.webp" type="image/webp"><img
+														src="img/hom_items/a04.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Red lightweight gown</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a05.webp" type="image/webp"><img
+														src="img/hom_items/a05.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Blue botton-down gown</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a06.webp" type="image/webp"><img
+														src="img/hom_items/a06.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Moon and star neckpiece</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="tabs__body">
+							<div id="tab2" class="block-content">
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a01.webp" type="image/webp"><img
+														src="img/hom_items/a01.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description">
+												<a href="#">Multicolored armless
+													topMulticolored armless
+													topMulticolored armless top
+												</a>
+											</div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a02.webp" type="image/webp"><img
+														src="img/hom_items/a02.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Grey bee wrist-watch</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a03.webp" type="image/webp"><img
+														src="img/hom_items/a03.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Mini skirt</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a01.webp" type="image/webp"><img
+														src="img/hom_items/a01.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description">
+												<a href="#">Multicolored armless
+													topMulticolored armless
+													topMulticolored armless top
+												</a>
+											</div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a02.webp" type="image/webp"><img
+														src="img/hom_items/a02.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Grey bee wrist-watch</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a03.webp" type="image/webp"><img
+														src="img/hom_items/a03.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Mini skirt</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a04.webp" type="image/webp"><img
+														src="img/hom_items/a04.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Red lightweight gown</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a05.webp" type="image/webp"><img
+														src="img/hom_items/a05.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Blue botton-down gown</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a06.webp" type="image/webp"><img
+														src="img/hom_items/a06.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Moon and star neckpiece</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<div class="tabs__body">
+							<div id="tab3" class="block-content">
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a01.webp" type="image/webp"><img
+														src="img/hom_items/a01.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description">
+												<a href="#">Multicolored armless
+													topMulticolored armless
+													topMulticolored armless top
+												</a>
+											</div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a02.webp" type="image/webp"><img
+														src="img/hom_items/a02.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Grey bee wrist-watch</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a03.webp" type="image/webp"><img
+														src="img/hom_items/a03.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Mini skirt</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a01.webp" type="image/webp"><img
+														src="img/hom_items/a01.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description">
+												<a href="#">Multicolored armless
+													topMulticolored armless
+													topMulticolored armless top
+												</a>
+											</div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a02.webp" type="image/webp"><img
+														src="img/hom_items/a02.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Grey bee wrist-watch</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a03.webp" type="image/webp"><img
+														src="img/hom_items/a03.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Mini skirt</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a01.webp" type="image/webp"><img
+														src="img/hom_items/a01.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description">
+												<a href="#">Multicolored armless
+													topMulticolored armless
+													topMulticolored armless top
+												</a>
+											</div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a02.webp" type="image/webp"><img
+														src="img/hom_items/a02.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Grey bee wrist-watch</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="item item_next">
+									<div class="item__body item__body_next">
+										<div class="item__img">
+											<a href="#">
+												<picture>
+													<source srcset="img/hom_items/a03.webp" type="image/webp"><img
+														src="img/hom_items/a03.jpg" alt="">
+												</picture>
+											</a>
+										</div>
+										<div class="item__info">
+											<div class="item__description"><a href="#">Mini skirt</a></div>
+											<div class="item__price">₦10,000</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<nav data-tabs-titles class="tabs__navigation tabs__navigation_slotes">
+						<button data-goto="#tab1" type="submit" class="tabs__title _tab-active">1</button>
+						<button data-goto="#tab2" type="submit" class="tabs__title">2</button>
+						<button data-goto="#tab3" type="submit" class="tabs__title">3</button>
+						<a href="#" class="tab-arrow">
+							<img src="img/icons/tabs-arrow.svg" alt="">
+						</a>
+					</nav>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo">
+					<a href="index.html"><img src="img/header/logo.svg" alt=""></a>
+				</div>
+
+				<div class="footer__contacts">
+					<a href="#" class="footer__link">About As</a>
+					<a href="#" class="footer__link">Contact</a>
+					<a href="#" class="footer__link">Terms & Conditions</a>
+				</div>
+
+				<div class="footer__social">
+					<a href="#" class="footer__link footer__link_fb">Facebook</a>
+					<a href="#" class="footer__link footer__link_tv">Tvitter</a>
+					<a href="#" class="footer__link footer__link_in">Instagram</a>
+				</div>
+
+				<div class="footer__form">
+					<label class="footer__link">Subscribe to our newsletter</label>
+					<div class="footer__wrap">
+						<input type="email" placeholder="Email Addres">
+						<button type="submit">OK</button>
+					</div>
+				</div>
+
+				<div class="footer__info">
+					<a class="footer__link" href="#">497 Street, Town</a>
+					<a class="footer__link" href="#">+044 444 444 4</a>
+					<a class="footer__link" href="#">mail@mail.com</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20220118231637"></script>
+</body>
+
+</html>

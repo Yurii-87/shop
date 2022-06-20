@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Safary</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="clothes.html" class="menu__link">Clothes</a></li>
+							<li class="menu__item"><a href="shoes.html" class="menu__link">Shoes</a></li>
+							<li class="menu__item"><a href="accessories.html" class="menu__link">Accessories</a></li>
+						</ul>
+					</nav>
+				</div>
+
+				<div class="header__logo logo">
+					<a href="index.html"><img src="img/header/logo.svg" alt=""></a>
+				</div>
+
+				<div class="header__panel">
+					<form class="header__form" method="get">
+						<input class="header__search" placeholder="Search..." type="search">
+						<button type="submit">
+							<img class="header__btn" src="img/header/icons/seach.svg" alt="">
+						</button>
+					</form>
+					<div class="header__mob-search-wrap"></div>
+					<img class="header__mob-search" src="img/header/icons/seach.svg" alt="">
+					<div class="header__user-panel">
+						<a class="_icon-user" href="user.html"></a>
+						<a class="_icon-basket" href="cart.html"></a>
+						<a class="_icon-favorits selected" href="favorites.html"></a>
+					</div>
+				</div>
+
+
+			</div>
+		</header>
+		<main class="page page_next">
+			<div class="page__container">
+				<div class="favorites">
+					<aside class="side-bar">
+						<div class="side-bar__logo">ACCOUNT DASHBOARD</div>
+
+						<div class="side-bar__wrap">
+							<a href="#" class="side-bar__link _icon-user">Account Information</a>
+							<a href="#" class="side-bar__link _icon-book">Address Book</a>
+							<a href="#" class="side-bar__link _icon-orders">My Orders</a>
+							<a href="#" class="side-bar__link _icon-favorits">My Favorites</a>
+						</div>
+
+						<a href="#" class="side-bar__link-home">SIGN OUT</a>
+					</aside>
+					<div class="favorites__body">
+						<div class="favorites__lable">My Orders</div>
+						<div class="favorites__items">
+
+							<div class="item-favorite">
+								<div class="item-favorite__body">
+									<div class="item-favorite__hed">
+										<div class="item-favorite__img-ibg">
+											<picture>
+												<source srcset="img/favorites/items/boot.webp" type="image/webp"><img
+													class="item-favorite__image" src="img/favorites/items/boot.jpg" alt="">
+											</picture>
+										</div>
+										<div class="item-favorite__info">
+											<div class="item-favorite__name">Casual flat loafers</div>
+											<div class="item-favorite__size">Size - EU: 36 US: 5.5</div>
+											<div class="item-favorite__prise">₦ 10,000</div>
+										</div>
+									</div>
+									<div class="item-favorite__btns">
+										<form class="item-favorite__form">
+											<button class="item-favorite__submit" type="submit">BUY NOW</button>
+											<button class="item-favorite__btn"><span
+													class="item-favorite__span"></span>REMOVE</button>
+										</form>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="item-favorite">
+								<div class="item-favorite__body">
+									<div class="item-favorite__hed">
+										<div class="item-favorite__img-ibg">
+											<picture>
+												<source srcset="img/favorites/items/girl.webp" type="image/webp"><img
+													class="item-favorite__image" src="img/favorites/items/girl.jpg" alt="">
+											</picture>
+										</div>
+										<div class="item-favorite__info">
+											<div class="item-favorite__name">topMulticolored armless top</div>
+											<div class="item-favorite__size">Size - XS</div>
+											<div class="item-favorite__prise">₦ 10,000</div>
+										</div>
+									</div>
+									<div class="item-favorite__btns">
+										<form class="item-favorite__form">
+											<button class="item-favorite__submit" type="submit">BUY NOW</button>
+											<button class="item-favorite__btn"><span
+													class="item-favorite__span"></span>REMOVE</button>
+										</form>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__logo">
+					<a href="index.html"><img src="img/header/logo.svg" alt=""></a>
+				</div>
+
+				<div class="footer__contacts">
+					<a href="#" class="footer__link">About As</a>
+					<a href="#" class="footer__link">Contact</a>
+					<a href="#" class="footer__link">Terms & Conditions</a>
+				</div>
+
+				<div class="footer__social">
+					<a href="#" class="footer__link footer__link_fb">Facebook</a>
+					<a href="#" class="footer__link footer__link_tv">Tvitter</a>
+					<a href="#" class="footer__link footer__link_in">Instagram</a>
+				</div>
+
+				<div class="footer__form">
+					<label class="footer__link">Subscribe to our newsletter</label>
+					<div class="footer__wrap">
+						<input type="email" placeholder="Email Addres">
+						<button type="submit">OK</button>
+					</div>
+				</div>
+
+				<div class="footer__info">
+					<a class="footer__link" href="#">497 Street, Town</a>
+					<a class="footer__link" href="#">+044 444 444 4</a>
+					<a class="footer__link" href="#">mail@mail.com</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20220118231637"></script>
+</body>
+
+</html>
